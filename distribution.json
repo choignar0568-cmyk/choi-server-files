@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "servers": [
+    {
+      "id": "choi-server",
+      "name": "최르 서버",
+      "description": "최르 서버 Minecraft 서버",
+      "version": "1.0.0",
+      "address": "choirserver.duckdns.org:25565",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.5",
+          "name": "Fabric Loader 0.19.5",
+          "type": "Fabric",
+          "artifact": {
+            "size": 0,
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.19.5",
+              "name": "Fabric 1.21.1 version manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 0,
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.19.5/profile/json"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
