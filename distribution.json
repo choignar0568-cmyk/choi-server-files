@@ -102,6 +102,15 @@
             "size": 0,
             "url": "https://api.modrinth.com/maven/maven/modrinth/YL57xq9U/zsoi0dso/YL57xq9U-zsoi0dso.jar"
           }
+        },
+        {
+          "id": "curse.maven:simple-nicknames-1398548:8816241",
+          "name": "Simple Nicknames 0.8.0 for Minecraft 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.curseforge.com/api/v1/mods/1398548/files/8816241/download"
+          }
         }
       ]
     }
