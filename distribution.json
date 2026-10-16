@@ -1,61 +1,109 @@
-const { DistributionAPI, HeliosModule } = require('helios-core/common')
-
-const ConfigManager = require('./configmanager')
-
-const BUNDLED_DISTRIBUTION = require('./distribution.json')
-const BUNDLED_CLIENT_MODULE_PREFIXES = [
-    'curse.maven:cyberhud-1528157:',
-    'maven.modrinth:AANobbMI:',
-    'maven.modrinth:lfHFW1mp:',
-    'maven.modrinth:YL57xq9U:',
-    'curse.maven:journeymap-teams-923833:'
-]
-const BUNDLED_CLIENT_SERVER = BUNDLED_DISTRIBUTION.servers.find(server => server.id === 'choi-server')
-const BUNDLED_CLIENT_MODULES = BUNDLED_CLIENT_SERVER?.modules.filter(module =>
-    BUNDLED_CLIENT_MODULE_PREFIXES.some(prefix => module.id.startsWith(prefix))) ?? []
-
-// GitHub Pages serves the public distribution index for this launcher.
-exports.REMOTE_DISTRO_URL = 'https://choignar0568-cmyk.github.io/choi-server-files/distribution.json'
-
-const api = new DistributionAPI(
-    ConfigManager.getLauncherDirectory(),
-    null, // Injected forcefully by the preloader.
-    null, // Injected forcefully by the preloader.
-    exports.REMOTE_DISTRO_URL,
-    false
-)
-
-// The hosted distribution normally replaces the bundled index. Carry these
-// bundled client mods into it for the Minecraft version they target.
-function includeBundledClientModules(distribution) {
-    if(distribution == null || BUNDLED_CLIENT_SERVER == null || BUNDLED_CLIENT_MODULES.length === 0) {
-        return distribution
-    }
-
-    const server = distribution.getServerById(BUNDLED_CLIENT_SERVER.id)
-    if(server == null || server.rawServer.minecraftVersion !== BUNDLED_CLIENT_SERVER.minecraftVersion) {
-        return distribution
-    }
-
-    const moduleIds = new Set(server.rawServer.modules.map(module => module.id))
-    for(const module of BUNDLED_CLIENT_MODULES) {
-        const projectPrefix = BUNDLED_CLIENT_MODULE_PREFIXES.find(prefix => module.id.startsWith(prefix))
-        const hasModuleFromProject = [...moduleIds].some(id => id.startsWith(projectPrefix))
-        if(hasModuleFromProject) {
-            continue
+{
+  "version": "1.0.0",
+  "servers": [
+    {
+      "id": "choi-server",
+      "name": "理쒕Ⅴ ?쒕쾭",
+      "description": "理쒕Ⅴ ?쒕쾭 Minecraft ?쒕쾭",
+      "version": "1.0.0",
+      "address": "choirserver.duckdns.org:25565",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.5",
+          "name": "Fabric Loader 0.19.5",
+          "type": "Fabric",
+          "artifact": {
+            "size": 0,
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.19.5",
+              "name": "Fabric 1.21.1 version manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 0,
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.19.5/profile/json"
+              }
+            }
+          ]
+        },
+        {
+          "id": "maven.modrinth:P7dR8mSH:Mys3P7lK",
+          "name": "Fabric API 0.116.17+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar?mr_download_reason=standalone"
+          }
+        },
+        {
+          "id": "maven.modrinth:8BmcQJ2H:tmxM7U4W",
+          "name": "GeckoLib Fabric 4.9.3 for 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/tmxM7U4W/geckolib-fabric-1.21.1-4.9.3.jar?mr_download_reason=standalone"
+          }
+        },
+        {
+          "id": "maven.modrinth:og4KPYmA:7FaixPLu",
+          "name": "Vic's Point Blank 2.2.0 for 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://cdn.modrinth.com/data/og4KPYmA/versions/7FaixPLu/pointblank-fabric-1.21-2.2.0.jar?mr_download_reason=standalone"
+          }
+        },
+        {
+          "id": "curse.maven:cyberhud-1528157:8016051",
+          "name": "CyberHUD Fabric 1.1.0 for Minecraft 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.curseforge.com/api/v1/mods/1528157/files/8016051/download"
+          }
+        },
+        {
+          "id": "maven.modrinth:lfHFW1mp:i7LuKuDl",
+          "name": "JourneyMap Fabric 6.0.9 for Minecraft 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://api.modrinth.com/maven/maven/modrinth/lfHFW1mp/i7LuKuDl/lfHFW1mp-i7LuKuDl.jar"
+          }
+        },
+        {
+          "id": "curse.maven:journeymap-teams-923833:8402310",
+          "name": "JourneyMap Teams Fabric 1.3.1 for Minecraft 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.curseforge.com/api/v1/mods/923833/files/8402310/download"
+          }
+        },
+        {
+          "id": "maven.modrinth:AANobbMI:u1OEbNKx",
+          "name": "Sodium 0.6.13 for Minecraft 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://api.modrinth.com/maven/maven/modrinth/AANobbMI/u1OEbNKx/AANobbMI-u1OEbNKx.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:YL57xq9U:zsoi0dso",
+          "name": "Iris Shaders 1.8.8 for Minecraft 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://api.modrinth.com/maven/maven/modrinth/YL57xq9U/zsoi0dso/YL57xq9U-zsoi0dso.jar"
+          }
         }
-
-        server.rawServer.modules.push(module)
-        server.modules.push(new HeliosModule(module, server.rawServer.id, api.commonDir, api.instanceDir))
-        moduleIds.add(module.id)
+      ]
     }
-
-    return distribution
+  ]
 }
-
-for(const method of ['getDistribution', 'getDistributionLocalLoadOnly', 'refreshDistributionOrFallback']) {
-    const loadDistribution = api[method].bind(api)
-    api[method] = async (...args) => includeBundledClientModules(await loadDistribution(...args))
-}
-
-exports.DistroAPI = api
