@@ -3,8 +3,8 @@
   "servers": [
     {
       "id": "choi-server",
-      "name": "理쒕Ⅴ ?쒕쾭",
-      "description": "理쒕Ⅴ ?쒕쾭 Minecraft ?쒕쾭",
+      "name": "최르 서버",
+      "description": "최르 서버 Minecraft 서버",
       "version": "1.0.0",
       "address": "choirserver.duckdns.org:25565",
       "minecraftVersion": "1.21.1",
