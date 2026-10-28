@@ -104,6 +104,15 @@
           }
         },
         {
+          "id": "maven.modrinth:qyulnpBL:IMX0mIHl",
+          "name": "Korean Chat Patch 1.9.6 for Fabric 1.21.1 (client-side)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://cdn.modrinth.com/data/qyulnpBL/versions/IMX0mIHl/koreanpatch-fabric-1.9.6%2Bmc1.21.jar?mr_download_reason=standalone"
+          }
+        },
+        {
           "id": "curse.maven:simple-nicknames-1398548:8816241",
           "name": "Simple Nicknames 0.8.0 for Minecraft 1.21.1",
           "type": "FabricMod",
