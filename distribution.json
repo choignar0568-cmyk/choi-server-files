@@ -120,6 +120,17 @@
             "size": 0,
             "url": "https://www.curseforge.com/api/v1/mods/1398548/files/8816241/download"
           }
+        },
+        {
+          "id": "kr.choignar:love-rod-heart-theme:1.0.0",
+          "name": "Love Rod Heart Theme 1.0.0 (client-side)",
+          "type": "FabricMod",
+          "description": "A dusty-rose border and pixel hearts for the Love Rod selection screen.",
+          "artifact": {
+            "size": 6618,
+            "MD5": "B80D6090FBFC2CDECE612A3AA808AE7D",
+            "url": "https://choignar0568-cmyk.github.io/choi-server-files/mods/love-rod-heart-theme-1.0.0.jar"
+          }
         }
       ]
     }
