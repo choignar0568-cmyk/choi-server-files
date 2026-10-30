@@ -50,15 +50,6 @@
           }
         },
         {
-          "id": "maven.modrinth:og4KPYmA:7FaixPLu",
-          "name": "Vic's Point Blank 2.2.0 for 1.21.1",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 0,
-            "url": "https://cdn.modrinth.com/data/og4KPYmA/versions/7FaixPLu/pointblank-fabric-1.21-2.2.0.jar?mr_download_reason=standalone"
-          }
-        },
-        {
           "id": "curse.maven:cyberhud-1528157:8016051",
           "name": "CyberHUD Fabric 1.1.0 for Minecraft 1.21.1",
           "type": "FabricMod",
@@ -113,15 +104,6 @@
           }
         },
         {
-          "id": "curse.maven:simple-nicknames-1398548:8816241",
-          "name": "Simple Nicknames 0.8.0 for Minecraft 1.21.1",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 0,
-            "url": "https://www.curseforge.com/api/v1/mods/1398548/files/8816241/download"
-          }
-        },
-        {
           "id": "kr.choignar:love-rod-heart-theme:1.0.3",
           "name": "Love Rod Heart Theme 1.0.3 (client-side)",
           "type": "FabricMod",
@@ -130,6 +112,69 @@
             "size": 6530,
             "MD5": "7A2E9B89C14AD191A0A885B11430EFCA",
             "url": "https://choignar0568-cmyk.github.io/choi-server-files/love-rod-heart-theme-1.0.3.jar"
+          }
+        },
+        {
+          "id": "kr.choignar:amethyst-rounds:1.3.0",
+          "name": "Amethyst Rounds 1.3.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://choignar0568-cmyk.github.io/choi-server-files/amethyst-rounds-1.3.0.jar"
+          }
+        },
+        {
+          "id": "curse.maven:forge-config-api-port-547434:7213608",
+          "name": "Forge Config API Port 21.1.6 for Fabric 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.curseforge.com/api/v1/mods/547434/files/7213608/download"
+          }
+        },
+        {
+          "id": "curse.maven:tacz-refabricated-1334246:9043429",
+          "name": "TaCZ: Refabricated 0.7.1 for Fabric 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.curseforge.com/api/v1/mods/1334246/files/9043429/download"
+          }
+        },
+        {
+          "id": "curse.maven:quantified-api-1397967:9037916",
+          "name": "Quantified API 2.2.4 for Minecraft 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.curseforge.com/api/v1/mods/1397967/files/9037916/download"
+          }
+        },
+        {
+          "id": "curse.maven:tacza-1622154:9237540",
+          "name": "TaCZ: Accel 1.3.3 for Fabric 1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.curseforge.com/api/v1/mods/1622154/files/9237540/download"
+          }
+        },
+        {
+          "id": "kr.choignar:love-rod:1.0.0",
+          "name": "Love Rod 1.0.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://choignar0568-cmyk.github.io/choi-server-files/love-rod-1.0.0.jar"
+          }
+        },
+        {
+          "id": "kr.choignar:love-rod-korean-commands:1.0.0",
+          "name": "Love Rod Korean Commands 1.0.0",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 0,
+            "url": "https://choignar0568-cmyk.github.io/choi-server-files/love-rod-korean-commands-1.0.0.jar"
           }
         }
       ]
