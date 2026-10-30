@@ -119,8 +119,9 @@
           "name": "Amethyst Rounds 1.3.0",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
-            "url": "https://choignar0568-cmyk.github.io/choi-server-files/amethyst-rounds-1.3.0.jar"
+            "size": 19827,
+            "url": "https://choignar0568-cmyk.github.io/choi-server-files/amethyst-rounds-1.3.0.jar",
+            "MD5": "15B95CFD21415888D883148E46772CBE"
           }
         },
         {
@@ -128,8 +129,9 @@
           "name": "Forge Config API Port 21.1.6 for Fabric 1.21.1",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
-            "url": "https://www.curseforge.com/api/v1/mods/547434/files/7213608/download"
+            "size": 633065,
+            "url": "https://www.cursemaven.com/curse/maven/forge-config-api-port-547434/7213608/forge-config-api-port-547434-7213608.jar",
+            "MD5": "EBA1A7F9D9976E983A2B9EB5E915E087"
           }
         },
         {
@@ -137,8 +139,9 @@
           "name": "TaCZ: Refabricated 0.7.1 for Fabric 1.21.1",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
-            "url": "https://www.curseforge.com/api/v1/mods/1334246/files/9043429/download"
+            "size": 58054478,
+            "url": "https://www.cursemaven.com/curse/maven/tacz-refabricated-1334246/9043429/tacz-refabricated-1334246-9043429.jar",
+            "MD5": "85CE16777FBFFB32AC0C0FD89CAD94BA"
           }
         },
         {
@@ -146,8 +149,9 @@
           "name": "Quantified API 2.2.4 for Minecraft 1.21.1",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
-            "url": "https://www.curseforge.com/api/v1/mods/1397967/files/9037916/download"
+            "size": 9578100,
+            "url": "https://www.cursemaven.com/curse/maven/quantified-api-1397967/9037916/quantified-api-1397967-9037916.jar",
+            "MD5": "38ADD6ACAB2A548E662B75DE57E7B8A9"
           }
         },
         {
@@ -155,8 +159,9 @@
           "name": "TaCZ: Accel 1.3.3 for Fabric 1.21.1",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
-            "url": "https://www.curseforge.com/api/v1/mods/1622154/files/9237540/download"
+            "size": 841991,
+            "url": "https://www.cursemaven.com/curse/maven/tacza-1622154/9237540/tacza-1622154-9237540.jar",
+            "MD5": "EBB0B22689C1BFF031B49DAFFC53E97F"
           }
         },
         {
@@ -164,8 +169,9 @@
           "name": "Love Rod 1.0.0",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
-            "url": "https://choignar0568-cmyk.github.io/choi-server-files/love-rod-1.0.0.jar"
+            "size": 12573,
+            "url": "https://choignar0568-cmyk.github.io/choi-server-files/love-rod-1.0.0.jar",
+            "MD5": "24D1F73F64BFFCDEACDBF38830DD2F12"
           }
         },
         {
@@ -173,8 +179,9 @@
           "name": "Love Rod Korean Commands 1.0.0",
           "type": "FabricMod",
           "artifact": {
-            "size": 0,
-            "url": "https://choignar0568-cmyk.github.io/choi-server-files/love-rod-korean-commands-1.0.0.jar"
+            "size": 7940,
+            "url": "https://choignar0568-cmyk.github.io/choi-server-files/love-rod-korean-commands-1.0.0.jar",
+            "MD5": "A317FAE20DC205B7C7F6E1F9A67F613E"
           }
         }
       ]
