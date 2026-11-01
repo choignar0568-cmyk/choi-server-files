@@ -134,14 +134,14 @@
           }
         },
         {
-          "id": "kr.choignar:love-rod-heart-theme:1.0.6",
-          "name": "Love Rod Heart Theme 1.0.6 (client-side)",
+          "id": "kr.choignar:love-rod-heart-theme:1.0.7",
+          "name": "Love Rod Heart Theme 1.0.7 (client-side)",
           "type": "FabricMod",
-          "description": "A heart-pattern result board with fixed nickname positions and directional selection arrows, without the inventory panel.",
+          "description": "Full-screen Love Rod selection cards with large player heads and nicknames, plus a result board with fixed nickname positions and selection arrows.",
           "artifact": {
-            "size": 21982,
-            "MD5": "D0CA9F2EBD9B9FE050821ACC9E4B26DB",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/love-rod-heart-theme-1.0.6.jar"
+            "size": 25248,
+            "MD5": "D82392F6107455AD14312BABA1291BE4",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/love-rod-heart-theme-1.0.7.jar"
           }
         }
       ]
