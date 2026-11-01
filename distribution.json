@@ -134,14 +134,14 @@
           }
         },
         {
-          "id": "kr.choignar:love-rod-heart-theme:1.0.3",
-          "name": "Love Rod Heart Theme 1.0.3 (client-side)",
+          "id": "kr.choignar:love-rod-heart-theme:1.0.4",
+          "name": "Love Rod Heart Theme 1.0.4 (client-side)",
           "type": "FabricMod",
-          "description": "A dusty-rose border and pixel hearts for the Love Rod selection screen.",
+          "description": "A blush-pink Love Rod selection screen and a full-screen result diagram with drawn choice lines.",
           "artifact": {
-            "size": 6530,
-            "MD5": "7A2E9B89C14AD191A0A885B11430EFCA",
-            "url": "https://choignar0568-cmyk.github.io/choi-server-files/love-rod-heart-theme-1.0.3.jar"
+            "size": 13664,
+            "MD5": "2690625DED0CB3E980CCF2D88A89FF25",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/love-rod-heart-theme-1.0.4.jar"
           }
         }
       ]
