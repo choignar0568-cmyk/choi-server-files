@@ -134,14 +134,14 @@
           }
         },
         {
-          "id": "kr.choignar:love-rod-heart-theme:1.0.4",
-          "name": "Love Rod Heart Theme 1.0.4 (client-side)",
+          "id": "kr.choignar:love-rod-heart-theme:1.0.5",
+          "name": "Love Rod Heart Theme 1.0.5 (client-side)",
           "type": "FabricMod",
-          "description": "A blush-pink Love Rod selection screen and a full-screen result diagram with drawn choice lines.",
+          "description": "A heart-pattern result board with player heads, names and directional selection arrows, without the inventory panel.",
           "artifact": {
-            "size": 13664,
-            "MD5": "2690625DED0CB3E980CCF2D88A89FF25",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/love-rod-heart-theme-1.0.4.jar"
+            "size": 21137,
+            "MD5": "D95A9668F4910775B5901C18CAA4F1B7",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/love-rod-heart-theme-1.0.5.jar"
           }
         }
       ]
