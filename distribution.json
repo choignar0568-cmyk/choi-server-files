@@ -145,14 +145,14 @@
           }
         },
         {
-          "id": "kr.choignar:choi-game-menu:1.2.1",
-          "name": "Choi Game Menu 1.2.1",
+          "id": "kr.choignar:choi-game-menu:1.2.2",
+          "name": "Choi Game Menu 1.2.2",
           "type": "FabricMod",
-          "description": "5v5 deathmatch HUD with team heads, kills and timer. OPs can privately test the HUD alone, including deaths and respawns.",
+          "description": "Compact single-row 5v5 HUD at one-third height, with team heads, kills, timer and private OP solo testing.",
           "artifact": {
-            "size": 52594,
-            "MD5": "15f8d100e47c73ea2b6db3308a4ed759",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.2.1.jar"
+            "size": 52595,
+            "MD5": "5bd423a4b1f82cb35a9f31d9917d829d",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.2.2.jar"
           }
         },
         {
