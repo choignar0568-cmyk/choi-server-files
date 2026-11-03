@@ -145,14 +145,14 @@
           }
         },
         {
-          "id": "kr.choignar:choi-game-menu:1.1.1",
-          "name": "Choi Game Menu 1.1.1",
+          "id": "kr.choignar:choi-game-menu:1.2.0",
+          "name": "Choi Game Menu 1.2.0",
           "type": "FabricMod",
-          "description": "Shift+F menu and 5v5 team deathmatch with three seconds of protection after respawning.",
+          "description": "5v5 deathmatch HUD with team player heads, combined team kills and remaining time. Dead players' heads disappear until respawn.",
           "artifact": {
-            "size": 40787,
-            "MD5": "57bb29a7b2638e2ca64384374780b002",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.1.1.jar"
+            "size": 46256,
+            "MD5": "92a02d0bc98f4b86979c59be9c713c94",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.2.0.jar"
           }
         },
         {
