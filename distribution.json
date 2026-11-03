@@ -118,14 +118,14 @@
           }
         },
         {
-          "id": "kr.choignar:choi-game-menu:1.5.0",
-          "name": "Choi Game Menu 1.5.0",
+          "id": "kr.choignar:choi-game-menu:1.5.1",
+          "name": "Choi Game Menu 1.5.1",
           "type": "FabricMod",
-          "description": "Five configurable item sets with OP template editing and complete-set claiming, plus tactical minimap, match HUD and KDA Tab roster.",
+          "description": "Five configurable item sets with OP template editing and complete-set claiming, compact match HUD and centered KDA Tab roster. Tactical minimap removed.",
           "artifact": {
-            "size": 102572,
-            "MD5": "eeb49896d9f28570271cf5b2b786dc4c",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.5.0.jar"
+            "size": 71653,
+            "MD5": "32726840cbe9ad1798a3135d9a0c0d9c",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.5.1.jar"
           }
         },
         {
