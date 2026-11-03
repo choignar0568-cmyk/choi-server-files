@@ -118,14 +118,14 @@
           }
         },
         {
-          "id": "kr.choignar:choi-game-menu:1.4.1",
-          "name": "Choi Game Menu 1.4.1",
+          "id": "kr.choignar:choi-game-menu:1.4.2",
+          "name": "Choi Game Menu 1.4.2",
           "type": "FabricMod",
-          "description": "Circular tactical minimap with translucent gray routes, thin white contours and floor-aware shading, plus match HUD and KDA Tab roster.",
+          "description": "Smaller top-left tactical minimap with transparent background, translucent gray routes and thin white contours, plus match HUD and KDA Tab roster.",
           "artifact": {
-            "size": 88453,
-            "MD5": "e7cf7624a79e3e792f996ebc39857f2c",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.4.1.jar"
+            "size": 89399,
+            "MD5": "a23f55b9af4986b61b22538a5545dd65",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.4.2.jar"
           }
         },
         {
