@@ -145,14 +145,14 @@
           }
         },
         {
-          "id": "kr.choignar:choi-game-menu:1.2.0",
-          "name": "Choi Game Menu 1.2.0",
+          "id": "kr.choignar:choi-game-menu:1.2.1",
+          "name": "Choi Game Menu 1.2.1",
           "type": "FabricMod",
-          "description": "5v5 deathmatch HUD with team player heads, combined team kills and remaining time. Dead players' heads disappear until respawn.",
+          "description": "5v5 deathmatch HUD with team heads, kills and timer. OPs can privately test the HUD alone, including deaths and respawns.",
           "artifact": {
-            "size": 46256,
-            "MD5": "92a02d0bc98f4b86979c59be9c713c94",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.2.0.jar"
+            "size": 52594,
+            "MD5": "15f8d100e47c73ea2b6db3308a4ed759",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.2.1.jar"
           }
         },
         {
