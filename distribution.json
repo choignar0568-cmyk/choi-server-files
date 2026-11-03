@@ -145,14 +145,14 @@
           }
         },
         {
-          "id": "kr.choignar:choi-game-menu:1.2.3",
-          "name": "Choi Game Menu 1.2.3",
+          "id": "kr.choignar:choi-game-menu:1.3.0",
+          "name": "Choi Game Menu 1.3.0",
           "type": "FabricMod",
-          "description": "Tightly packed single-row 5v5 HUD with player heads, kill totals and timer; no labels or excess spacing.",
+          "description": "Compact match HUD and centered red/blue Tab roster with player heads, names, kills, deaths and assists.",
           "artifact": {
-            "size": 52449,
-            "MD5": "a80e68ec4374417e6539525bfe8a9e78",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.2.3.jar"
+            "size": 58477,
+            "MD5": "e05d8e8e6ddd07840285b7e44fc2b8e2",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.3.0.jar"
           }
         },
         {
