@@ -176,6 +176,17 @@
             "MD5": "1db5819a8fc0e1f3574032e14cf97d1b",
             "url": "https://cdn.modrinth.com/data/JKuinnWa/versions/jFW6823S/keybindfixplus-2.0.0.jar"
           }
+        },
+        {
+          "id": "kr.choignar:cyberhud-layout:1.0.0",
+          "name": "Choi CyberHUD Layout 1.0.0 (client-side)",
+          "type": "FabricMod",
+          "description": "Swap the armor and absorption rows: AB, AR, HP.",
+          "artifact": {
+            "size": 2088,
+            "MD5": "e4b6f1ec0271329a20e7133121e562fb",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-cyberhud-layout-1.0.0.jar"
+          }
         }
       ]
     }
