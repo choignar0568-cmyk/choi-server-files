@@ -187,6 +187,17 @@
             "MD5": "e4b6f1ec0271329a20e7133121e562fb",
             "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-cyberhud-layout-1.0.0.jar"
           }
+        },
+        {
+          "id": "kr.choignar:korean-nicknames:1.0.0",
+          "name": "Choi Korean Nicknames 1.0.0",
+          "type": "FabricMod",
+          "description": "OP-managed persistent Korean display names for nameplates, chat and the player list.",
+          "artifact": {
+            "size": 20984,
+            "MD5": "9616bba1182a9c000ec46ed9f3065406",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-korean-nicknames-1.0.0.jar"
+          }
         }
       ]
     }
