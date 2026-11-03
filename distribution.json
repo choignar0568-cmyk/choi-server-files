@@ -41,39 +41,12 @@
           }
         },
         {
-          "id": "maven.modrinth:8BmcQJ2H:tmxM7U4W",
-          "name": "GeckoLib Fabric 4.9.3 for 1.21.1",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 0,
-            "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/tmxM7U4W/geckolib-fabric-1.21.1-4.9.3.jar?mr_download_reason=standalone"
-          }
-        },
-        {
           "id": "curse.maven:cyberhud-1528157:8016051",
           "name": "CyberHUD Fabric 1.1.0 for Minecraft 1.21.1",
           "type": "FabricMod",
           "artifact": {
             "size": 23752,
             "url": "https://www.cursemaven.com/curse/maven/cyberhud-1528157/8016051/cyberhud-1528157-8016051.jar"
-          }
-        },
-        {
-          "id": "maven.modrinth:lfHFW1mp:i7LuKuDl",
-          "name": "JourneyMap Fabric 6.0.9 for Minecraft 1.21.1",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 0,
-            "url": "https://api.modrinth.com/maven/maven/modrinth/lfHFW1mp/i7LuKuDl/lfHFW1mp-i7LuKuDl.jar"
-          }
-        },
-        {
-          "id": "curse.maven:journeymap-teams-923833:8402310",
-          "name": "JourneyMap Teams Fabric 1.3.1 for Minecraft 1.21.1",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 218704,
-            "url": "https://www.cursemaven.com/curse/maven/journeymap-teams-923833/8402310/journeymap-teams-923833-8402310.jar"
           }
         },
         {
@@ -145,14 +118,14 @@
           }
         },
         {
-          "id": "kr.choignar:choi-game-menu:1.3.0",
-          "name": "Choi Game Menu 1.3.0",
+          "id": "kr.choignar:choi-game-menu:1.4.1",
+          "name": "Choi Game Menu 1.4.1",
           "type": "FabricMod",
-          "description": "Compact match HUD and centered red/blue Tab roster with player heads, names, kills, deaths and assists.",
+          "description": "Circular tactical minimap with translucent gray routes, thin white contours and floor-aware shading, plus match HUD and KDA Tab roster.",
           "artifact": {
-            "size": 58477,
-            "MD5": "e05d8e8e6ddd07840285b7e44fc2b8e2",
-            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.3.0.jar"
+            "size": 88453,
+            "MD5": "e7cf7624a79e3e792f996ebc39857f2c",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.4.1.jar"
           }
         },
         {
