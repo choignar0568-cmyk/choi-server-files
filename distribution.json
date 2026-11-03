@@ -143,6 +143,39 @@
             "MD5": "D82392F6107455AD14312BABA1291BE4",
             "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/love-rod-heart-theme-1.0.7.jar"
           }
+        },
+        {
+          "id": "kr.choignar:choi-game-menu:1.1.1",
+          "name": "Choi Game Menu 1.1.1",
+          "type": "FabricMod",
+          "description": "Shift+F menu and 5v5 team deathmatch with three seconds of protection after respawning.",
+          "artifact": {
+            "size": 40787,
+            "MD5": "57BB29A7B2638E2CA64384374780B002",
+            "url": "https://raw.githubusercontent.com/choignar0568-cmyk/choi-server-files/main/choi-game-menu-1.1.1.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:Ha28R6CL:SKW1BTL3",
+          "name": "Fabric Language Kotlin 1.14.2+kotlin.2.4.21 (client-side)",
+          "type": "FabricMod",
+          "description": "Kotlin runtime required by Keybind Fix Plus.",
+          "artifact": {
+            "size": 8142878,
+            "MD5": "08B201C7D0E80BA7A3D77CCA0B2D3D3F",
+            "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar"
+          }
+        },
+        {
+          "id": "maven.modrinth:JKuinnWa:jFW6823S",
+          "name": "Keybind Fix Plus 2.0.0 for Minecraft 1.21.1 (client-side)",
+          "type": "FabricMod",
+          "description": "Fix shared mouse bindings so vanilla attack/use and TaCZ shoot/aim both receive input.",
+          "artifact": {
+            "size": 23486,
+            "MD5": "1DB5819A8FC0E1F3574032E14CF97D1B",
+            "url": "https://cdn.modrinth.com/data/JKuinnWa/versions/jFW6823S/keybindfixplus-2.0.0.jar"
+          }
         }
       ]
     }
